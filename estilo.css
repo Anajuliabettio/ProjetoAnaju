@@ -1,11 +1,22 @@
+.container{
+    display: flex;
+}
 
+.caixaImagem{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixaImagem p{
+    text-align: center;
+}
 
 .figura{
     width: 150px;
     height: 236px;
     border-radius: 10%;
-    margin-right: 10px;
-    margin-bottom: 2%;
 }
 
 
